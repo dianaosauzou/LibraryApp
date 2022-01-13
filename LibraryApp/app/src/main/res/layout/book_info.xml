@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="500dp"
+        android:layout_height="325dp"
+        android:background="@color/white"
+        android:backgroundTint="#00BCD4"
+        app:cardCornerRadius="40dp"
+        app:cardElevation="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/author"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_above="@+id/buyLink"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="103dp"
+                android:background="#B0FFFFFF"
+                android:backgroundTint="#D8FFFFFF"
+                android:gravity="center|center_horizontal"
+                android:text="Authors: Not Available"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/title1"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_above="@+id/buyLink"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="56dp"
+                android:background="#B0FFFFFF"
+                android:backgroundTint="#D8FFFFFF"
+                android:gravity="center|center_horizontal"
+                android:text="Title: Not Available"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_above="@+id/buyLink"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="8dp"
+                android:background="#B0FFFFFF"
+                android:backgroundTint="#D8FFFFFF"
+                android:gravity="center|center_horizontal"
+                android:text="Publisher: Not Available"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:id="@+id/buyLink"
+                android:layout_width="match_parent"
+                android:layout_height="42dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="-2dp"
+                android:layout_marginBottom="63dp"
+                android:background="#9AFFFFFF"
+                android:gravity="center"
+                android:text="Buy Link: Not Available"
+                android:textColor="#FFFFFF" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

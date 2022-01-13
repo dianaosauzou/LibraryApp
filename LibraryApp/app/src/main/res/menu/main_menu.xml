@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/article"
+        android:icon="@drawable/ic_baseline_article_24"
+        android:title="Articles"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/ic_baseline_map_24"
+        android:title="Bookstores"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Logout"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+</menu>

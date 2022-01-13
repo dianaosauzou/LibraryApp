@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/back"
+        android:icon="@drawable/ic_baseline_arrow_back_24"
+        android:title="Previous"
+        app:showAsAction="ifRoom|collapseActionView"/>
+    <item
+        android:id="@+id/app_bar_search12"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:title="Search"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="Logout"
+        app:showAsAction="ifRoom|collapseActionView"
+        />
+
+</menu>

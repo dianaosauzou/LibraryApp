@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Library App</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="submit">Submit</string>
+    <string name="byline">Review by:\ </string>
+    <string name="details">Book details:\ </string>
+</resources>
